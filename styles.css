@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+body{
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.9;
+  font-size: 18px;
+}
+
+.math{
+  direction: ltr;
+  text-align: center;
+  /* اجعل كل المعادلات (MathJax/LaTeX) من اليسار إلى اليمين */
+.math, .mathjax, .MathJax, mjx-container {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+  text-align: center;
+}
+
+}
